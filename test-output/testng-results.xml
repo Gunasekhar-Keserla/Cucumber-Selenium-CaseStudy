@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="102437" started-at="2020-08-14T07:22:43Z" finished-at="2020-08-14T07:24:26Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testrunner.TestRunner@3ee0fea4]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="102437" started-at="2020-08-14T07:22:43Z" finished-at="2020-08-14T07:24:26Z">
+      <class name="com.training.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.training.testrunner.TestRunner@3ee0fea4]" name="setUpClass" is-config="true" duration-ms="317" started-at="2020-08-14T12:52:43Z" finished-at="2020-08-14T12:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.training.testrunner.TestRunner@3ee0fea4]" name="feature" duration-ms="101873" started-at="2020-08-14T12:52:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-14T12:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[elearning portal registration  and to send an email to other user in the system]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.training.testrunner.TestRunner@3ee0fea4]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2020-08-14T12:54:26Z" finished-at="2020-08-14T12:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.training.testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
